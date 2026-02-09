@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Find Local Groups and Organizations</title>
+</head>
+<body>
+
+  <header>
+    <h1>Find Groups and Organizations Near You</h1>
+    <p>Discover local communities based on your interests and location.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#search">Search for groups</a></li>
+      <li><a href="#how-it-works">How this works</a></li>
+      <li><a href="#examples">Example groups</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="search">
+      <h2>Search for Groups</h2>
+      <p>Use the form below to describe what you are looking for.</p>
+
+      <form>
+        <fieldset>
+          <legend>Group Search</legend>
+
+          <label for="interest">
+            What are you interested in?
+          </label>
+          <br>
+          <input type="text" id="interest" name="interest">
+
+          <br><br>
+
+          <label for="location">
+            Your city or zip code
+          </label>
+          <br>
+          <input type="text" id="location" name="location">
+
+          <br><br>
+
+          <label for="group-type">
+            Type of group
+          </label>
+          <br>
+          <select id="group-type" name="group-type">
+            <option value="">Select one</option>
+            <option value="social">Social</option>
+            <option value="professional">Professional</option>
+            <option value="volunteer">Volunteer</option>
+            <option value="hobby">Hobby-based</option>
+          </select>
+
+          <br><br>
+
+          <button type="submit">Search</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section id="how-it-works">
+      <h2>How This Tool Helps</h2>
+      <p>
+        This site is designed to help people find in-person groups and organizations
+        in their local area without needing to already know where to look.
+      </p>
+      <p>
+        You enter an interest and a location, and the tool would show relevant
+        groups that meet nearby.
+      </p>
+    </section>
+
+    <section id="examples">
+      <h2>Example Groups</h2>
+
+      <article>
+        <h3>Community Hiking Club</h3>
+        <img src="hiking.jpg" alt="A group of people hiking on a trail together">
+        <p>
+          A weekly hiking group for beginners and experienced hikers.
+        </p>
+        <p>
+          <a href="#">View hiking groups in your area</a>
+        </p>
+      </article>
+
+      <article>
+        <h3>Local Volunteer Network</h3>
+        <img src="volunteer.jpg" alt="Volunteers working together at a food pantry">
+        <p>
+          Opportunities to help with food distribution, tutoring, and community events.
+        </p>
+        <p>
+          <a href="#">Find volunteer opportunities near you</a>
+        </p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      <strong>Project concept:</strong> A simple tool for discovering local groups and organizations.
+    </p>
+  </footer>
+
+</body>
+</html>
